@@ -7,6 +7,10 @@ const Button = styled.button`
   border-radius: 6px;
   background: rgb(118,120,224);
   color: #fff;
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 10px 0px;
+  }
 `;
 
 export default Button;

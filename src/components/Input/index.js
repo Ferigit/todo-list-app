@@ -10,5 +10,9 @@ border-radius: 3px;
 ::placeholder {
   color: palevioletred;
 }
+@media (max-width: 768px) {
+  width: 92%;
+  margin: 10px 0px;
+}
 `;
 export default Input;
