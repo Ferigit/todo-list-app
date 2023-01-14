@@ -20,7 +20,7 @@ const Todo = ({ onClick, completed, text, createdAt, handleDeleteTask, handleDet
                 <Image src="/assets/images/red-tick.png" width={20} height={20} />}
         </TD>
         <TD>
-            <Image src="/assets/images/bin.png" width={20} height={20} onClick={() => handleDeleteTask()} />
+            <Image id="bin" src="/assets/images/bin.png" width={20} height={20} onClick={() => handleDeleteTask()} />
         </TD>
         <TD onClick={handleDetail}>Details</TD>
     </>

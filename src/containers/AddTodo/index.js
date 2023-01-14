@@ -15,10 +15,10 @@ let AddTodo = ({ dispatch }) => {
             dispatch(addTodo(input.value))
             input.value = ''
         }}>
-            <Input ref={node => {
+            <Input id="input" ref={node => {
                 input = node
             }} placeholder="Enter title" />
-            <Button type="submit">
+            <Button id="submit-add" type="submit">
                 Add Todo
             </Button>
         </Form>
